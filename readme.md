@@ -1,5 +1,14 @@
 # 三镇网络科技有限公司
 
+## 案例说明
+* 参考网站:`http://worldcup.2014.163.com`
+
+## UI设计
+| 说明 | 设计视图 |
+|--------|--------|
+|    首页   | ![首页](UI/index.jpg) |
+|  登录界面  | ![登录界面](UI/login.jpg) |
+
 ## 说明
 * 营销官网：`http://www.threetowns.cn`
 * 技术支持：`http://www.flowerboys.cn`
