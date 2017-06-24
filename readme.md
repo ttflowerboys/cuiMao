@@ -1,5 +1,11 @@
 # 三镇网络科技有限公司
 
+## 案例说明
+* 参考网站：`http://zxconline.net/mobile`
+
+## UI设计
+![UI design](UI/index.jpg)
+
 ## 说明
 * 营销官网：`http://www.threetowns.cn`
 * 技术支持：`http://www.flowerboys.cn`
