@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="UTF-8">
+	<title>英雄联盟</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="wrap">
+		<div class="people"></div>
+		<h1 class="logo"><a href="">英雄联盟竞猜</a></h1>
+		<div class="nav">
+			<ul>
+				<li><a href="http://www.loldj8.com" target="_blank">注册中心</a></li>
+				<li class="cur" onclick="fn.tab('step')" data-trigger="step"><a href="javascript:;">竞猜步骤</a></li>
+				<li onclick="fn.tab('video')" data-trigger="video"><a href="javascript:;">英雄联盟竞猜</a></li>
+				<li onclick="fn.tab('intro')" data-trigger="intro"><a href="javascript:;">玩法介绍</a></li>
+				<li><a href="tencent://message/?uin=7105919&Site=web&Menu=yes">客服QQ</a></li>
+			</ul>
+		</div>
+		<div class="link">首次成功<a href="http://www.loldj8.com" target="_blank">注册空中城市</a>即可领取</div>
+		<div class="footerNav">
+			<ul>
+				<li class="nLi-1"><a href="http://www.loldj8.com"><i></i>关于我们</a></li>
+				<li class="nLi-2"><a href="http://www.loldj8.com"><i></i>存款帮助</a></li>
+				<li class="nLi-3"><a href="http://www.loldj8.com"><i></i>合作伙伴</a></li>
+				<li class="nLi-4"><a href="https://messenger.providesupport.net/messenger/007s51oyu36kn14ohjsbzmxlbi.html" target="_blank"><i></i>客服中心</a></li>
+				<li class="nLi-5"><a href="http://www.loldj8.com"><i></i>在线客服</a></li>
+			</ul>
+		</div>
+		<!-- 切换内容 -->
+		
+		<div class="J_TabBd">
+			<div id="step" class="J_items step">
+				<img src="images/step1.jpg" alt="">
+				<img src="images/step2.jpg" alt="">
+			</div>
+			<ul id="intro" class="J_items intro">
+				<li><span>胜负</span><span>独赢</span><span>让球</span><span>大小</span><span>单双</span><span>第一滴血</span><span> 击杀最多 </span><span>摧毁第一座水晶</span></li>
+				<li><span>摧毁第一座塔</span><span>杀死第一条男爵</span><span>杀死第一条小龙</span><span>杀死男爵总数</span></li>
+				<li><span>杀死小龙总数</span><span>摧毁防御塔总数</span><span>击杀总数</span><span>摧毁的水晶总数</span><span>第一滴血</span></li>
+				<li><span>单局四杀</span><span>单局五杀</span><span>单局超神</span><span>总推塔数单双</span><span>比赛让分盘</span></li>
+			</ul>
+			<div id="video" class="J_items video">
+				<a href="javascript:;" class="videoBtn" onclick="fn.openVideo()"></a>
+			</div>
+		</div>
+	</div>
+
+
+	
+	<div class="mask"><a href="javascrip:;" onclick="fn.closeVideo()" class="close"></a></div>
+	
+
+	<script src="https://cdn.bootcss.com/jquery/1.12.0/jquery.js"></script>
+	<script type="text/javascript" src="http://oidnhhjfl.bkt.clouddn.com/static/ckplayer/ckplayer.js" charset="utf-8"></script>
+	<script>
+		var fn = {
+			flashvars :{ f:'video/cg.flv',c:0,loaded:'loadHandler' },
+			video :['video/cg.flv->video/flv'],
+			openVideo : function(){
+				$('body').append('<div id="VideoScreen"></div>');
+				CKobject.embed('http://oidnhhjfl.bkt.clouddn.com/static/ckplayer/ckplayer.swf','VideoScreen','ckplayer_a1','960','540',false,fn.flashvars,fn.video);
+				$('#VideoScreen').show();
+				$('.mask').fadeIn(100);
+				
+			},
+			closeVideo: function(){
+				$('.mask').hide();
+				$('#VideoScreen').remove()
+			},
+			tab : function(cur){
+				var tabArr = $('.J_TabBd').children('.J_items');
+				var triggerArr = $('.nav li');
+				tabArr.hide();
+				$('#'+cur).show();
+				triggerArr.removeClass('cur')
+				$('.nav li').data('targger')
+				$('.nav').find("li[data-trigger="+cur+"]").addClass('cur')
+			},
+			hover:function(){
+				$('.nav li').hover(function(){
+					$(this).siblings().addClass('default')
+				},function(){
+					$(this).siblings().removeClass('default')
+				})
+			}
+		}
+		$(function(){
+			fn.hover()
+			fn.closeVideo()
+		})
+		
+
+
+	</script>
+</body>
+</html>
