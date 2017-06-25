@@ -1,8 +1,8 @@
 # 三镇网络科技有限公司
 
 ## UI设计
-| 版本说明 | 首页 | 子页面|
-|--------|--------|
+| 版本说明 | 首页 | 子页面 |
+|--------|--------|--------|
 | 第一版 | ![A_index](UI/A_index.jpg) | ![A_page1](UI/A_page1.jpg) |
 | 第一版 | ![A_page2](UI/A_page2.jpg) | ![A_page3](UI/A_page3.jpg) |
 | 第二版 | ![B_index](UI/B_index.jpg) | ![A_page1](UI/B_page1.jpg) |
