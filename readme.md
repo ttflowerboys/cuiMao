@@ -4,6 +4,7 @@
 | 版本说明 | 首页 | 子页面
 |--------|--------|
 | 第一版 | ![A_index](UI/A_index.jpg) | ![A_page1](UI/A_page1.jpg) |
+| 第一版 | ![A_page2](UI/A_page2.jpg) | ![A_page3](UI/A_page3.jpg) |
 
 ## 说明
 * 营销官网：`http://www.threetowns.cn`
