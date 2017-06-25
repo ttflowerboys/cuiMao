@@ -5,6 +5,8 @@
 |--------|--------|
 | 首页 | ![UI design](UI/UI.jpg) |
 | 第二版 | ![UI design](UI/LOL-V2.0.jpg) |
+| 兑猜步骤 | ![UI design](UI/LOL-step-V2.0.jpg) |
+
 
 ## 说明
 * 营销官网：`http://www.threetowns.cn`
