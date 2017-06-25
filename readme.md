@@ -4,6 +4,10 @@
 | 说明 | UI |
 |--------|--------|
 | 首页 | ![index](UI/index.jpg)        |
+| 返利套餐 | ![index](UI/rule.jpg)        |
+| 携手共赢 | ![index](UI/cooperation.jpg)        |
+
+
 
 ## 说明
 * 营销官网：`http://www.threetowns.cn`
