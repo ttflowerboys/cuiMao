@@ -1,7 +1,10 @@
 # 三镇网络科技有限公司
 
 ## UI设计
-![UI design](UI/UI.jpg)
+| 说明 | UI |
+|--------|--------|
+| 首页 | ![UI design](UI/UI.jpg) |
+| 第二版 | ![UI design](UI/LOL-V2.0.jpg) |
 
 ## 说明
 * 营销官网：`http://www.threetowns.cn`
