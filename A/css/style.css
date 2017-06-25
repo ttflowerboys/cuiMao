@@ -3,7 +3,7 @@
 html, body, h1, h2, h3, p, span, a, div, ol, ul, li, dl, dt, dd, table, tbody, tfoot, thead, tr, th, td, input, textarea, form {margin: 0;padding: 0;font-family:'Microsoft Yahei',Arial,Verdana,Helvetica,sans-serif;-webkit-tap-highlight-color: rgba(0,0,0,0);color: #303030;box-sizing: border-box;}
 ul,li{list-style: none;}
 input{border: 0}
-img{border: 0;max-width: 100%;}
+img{border: 0;max-width: 100%;vertical-align: top;}
 i,b,em,strong{font-weight: normal;font-style: normal;padding: 0;margin: 0;}
 a{color: #000;text-decoration: none;}
 .clearfix:after{content:'\0020';display:block;height:0;clear:both;visibility:hidden;}
@@ -76,3 +76,196 @@ article, aside, footer, header, hgroup, main, nav, section {display: block;}
 .textList li .link.go{background: #f39800 url(../images/arrowR.png) 100px center no-repeat;background-size: auto 16px;}
 
 .round{position: absolute;right: 10px;top: 5px;width: 30px;height: 30px;background: url(../images/round.png) center no-repeat;background-size: 26px;}
+
+#wrap.page1{
+  background: #F3F3F3;
+}
+.flex-box {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+.title-2{
+  padding: 0.25rem 0;
+  background: #fff;
+  color:#282828;
+  font-size: 0.24rem;
+  text-align: center;
+  line-height: 0.33rem;
+}
+.h2{
+  font-size: 0.28rem;
+  font-weight: bold;
+}
+
+.page1 .itemsList li{
+  margin-bottom: 1px;
+  background: #057ADC;
+  font-size:0.26rem;
+}
+.page1 .itemsList li span:first-child{
+  font-size:0.3rem;
+  margin-left: 0.3rem;
+  color:#fff;
+}
+.t-darkyellow{
+  color:#FADA68;
+}
+.title-3{
+  padding: 2% 0;
+  background: #fff;
+  color:#282828;
+  text-align: center;
+}
+.rules{
+  background: #fff;
+  overflow: hidden;
+  text-align: center;
+  padding-bottom: 0.2rem;
+}
+.rule-box{
+  width:50%;
+  margin-top:0.4rem;
+}
+.rule-box p:first-child{
+  margin-bottom: 0.2rem;
+  border-right:1px solid #eee;
+}
+.rule-box p:first-child span{
+  display: inline-block;
+  width: 1.1rem;
+  height:1.1rem;
+  line-height: 1.1rem;
+  text-align: center;
+  font-size: 0.64rem;
+  color:#e7e7e7;
+  border:1px solid #eee;
+  border-radius: 50%;
+}
+
+.rule-box p:nth-child(2){
+  font-size:0.26rem;
+  color:#057adc;
+  line-height: 0.35rem;
+  font-weight: bold;
+}
+.rule-box p:nth-child(3){
+  font-size: 0.24rem;
+  color:#282828;
+  line-height: 0.32rem;
+}
+.box-know{
+  padding: 0.25rem 0;
+  background: #fff;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.box-know img{
+  width: 3.76rem;
+  height: 2.96rem;
+}
+.rt-box{
+  flex: 1;
+  padding: 0 0.12rem;
+  font-size: 0.2rem;
+  line-height: 0.35rem;
+}
+
+.box-1{
+  width: 100%;
+  height: 3.16rem;
+  padding: 0.08rem 0;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.img-box1{
+  width: 3.5rem;
+  height: 3rem;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.img-box1 img{
+  width: 3.5rem;
+  height: 2.98rem;
+}
+.rt-box1{
+  flex: 1;
+  flex-direction: column;
+  -webkit-justify-content: center;
+  justify-content: center;
+  height: 3rem;
+  padding:0 0.2rem;
+  background: #fff;
+  font-size: 0.26rem;
+  line-height: 0.3rem;
+}
+.title4{
+  font-size: 0.3rem;
+  line-height: 0.35rem;
+  color:#1b2238;
+  font-weight: bold;
+}
+.rt-box1 p:nth-child(2){
+  font-size: 0.16rem;
+  color:#b6b6b6;
+  margin:0 0 0.2rem 0;
+}
+.box-2{
+  width: 100%;
+  height: 4.2rem;
+  background: #fff;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.box-2 > img{
+  width: 3.5rem;
+  height: 4.2rem;
+}
+.img-box2{
+  height: 4.2rem;
+  flex: 1;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.img-box2 > img{
+  width: 0.73rem;
+  height: 3.19rem;
+  margin:0 0.1rem;
+}
+ .img-box2 > div{
+   height: 4.2rem;
+   flex-direction: column;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   font-size: 0.26rem;
+   line-height: 0.3rem;
+   color:#1d1d1d;
+ }
+.box-3 {
+  height: 4.6rem;
+}
+ .box-3 > img{
+   width: 2.8rem;
+   height: 4.6rem;
+   margin-left: 0.12rem;
+ }
+ .box-4{
+   width: 100%;
+   height: 3.84rem;
+ }
+ .img-box4{
+   width: 2.90rem;
+   height: 3.82rem;
+ }
+.img-box4 img{
+  width: 2.90rem;
+  height: 3.82rem;
+}
+.rt-box4{
+  padding:0 0.15rem;
+  height: 3.82rem;
+}
