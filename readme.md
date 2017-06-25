@@ -1,5 +1,10 @@
 # 三镇网络科技有限公司
 
+# UI设计
+| 说明 | UI |
+|--------|--------|
+| 首页 | ![index](UI/index.jpg)        |
+
 ## 说明
 * 营销官网：`http://www.threetowns.cn`
 * 技术支持：`http://www.flowerboys.cn`
