@@ -1,0 +1,84 @@
+@charset "utf-8";/* CSS basic */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{ margin: 0; padding: 0; }
+fieldset,img{ border: 0; }
+img{vertical-align: top;}
+:focus{ outline: 0; }
+address,caption,cite,code,dfn,em,strong,th,var,optgroup{ font-style: normal; font-weight: normal; }
+h1,h2,h3,h4,h5,h6{ font-size: 100%; font-weight: normal; font-family: "Arial","Hiragino Sans GB", \5fae\8f6f\96c5\9ed1, "Helvetica", "sans-serif"; }
+input,button,textarea,select{ *font-size: 100%; border:none;}
+body{ background:#fff;font: 14px/1.5 'Microsoft YaHei',"Arial","Hiragino Sans GB", \5fae\8f6f\96c5\9ed1, "Helvetica", "sans-serif"; }
+ol,ul,li{ list-style: none; }
+table{ border-collapse: collapse; border-spacing: 0; }
+i{ font-style: normal;}
+:link, :visited, ins{ text-decoration: none; }
+.rel{position: relative;}.abs{position: absolute;}.fl{float: left;}.fr{float: right;}
+.w{width: 1100px;min-width:1100px;margin: 0 auto;position: relative;}
+a{color: #666;}a:hover{transition : color 0.2s linear 0s,background-color 0.3 linear 0s;color: #f6f90c;}
+.clearfix:after{content:'\0020';display:block;height:0;clear:both;visibility:hidden;}
+.clearfix{*zoom:1;}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {display: block;}
+
+.header{padding: 15px 0;height: 30px;background: #1c1c1a;}
+.logo{position: absolute;top: 0;left: 50%;margin-left: -167px;width: 335px;height: 211px;background: url(../images/logo.png) center top no-repeat;overflow: hidden;text-indent: -9999px;}
+.logo a{display: block;height: 100%;}
+
+.nav li.fl{margin-right: 60px;}
+.nav li.fr{margin-left: 60px;}
+.nav a{font-size: 16px;line-height: 30px;color: #fff;display: block;}
+.nav i{width: 30px;height: 30px;margin-right: 10px;display: inline-block;background: url(../images/nav.png) no-repeat;overflow: hidden;vertical-align: top;}
+.nav .icon-home{background-position: 0 0;}
+.nav .icon-edit{background-position: -30px 0;}
+.nav .icon-step{background-position: -60px 0;}
+.nav .icon-kf{background-position: -90px 0;}
+.nav li.cur a,.nav a:hover{color: #f6f90c;}
+.nav li.cur i,.nav a:hover i{background-position-y: -30px;}
+
+.banner{width: 100%;height: 243px;padding-top: 357px;background: #000 url(../images/banner.jpg) center top no-repeat;overflow: hidden;}
+.banner .link{width: 464px;height: 38px;padding-bottom: 9px;padding-top: 10px;background: url(../images/bannerLink.png) center no-repeat;margin: 0 auto;display: block;}
+.banner .link a{width: 330px;height: 32px;background: url(../images/link.png) center no-repeat;margin: 0 auto;display: block;}
+
+.Nav{height: 124px;background: #131313;}
+.NavList li{float: left;}
+.NavList li a{height: 104px;padding: 20px 26px 0;color: #fff;display: block;text-align: center;}
+.NavList li.cur a,.NavList li a:hover{color: #291f16;background: #ab915b url(../images/hover.jpg) center no-repeat;}
+.NavList li span{font-size: 16px;padding-top: 12px;display: block;}
+.NavList i{height: 54px;background-repeat: no-repeat;background-position: center;display: block;}
+.NavList .nLi-1 i{width: 84px;background-image: url(../images/n1.png);}
+.NavList .nLi-2 i{width: 124px;background-image: url(../images/n2.png);}
+.NavList .nLi-3 i{width: 112px;background-image: url(../images/n3.png);}
+.NavList .nLi-4 i{width: 108px;background-image: url(../images/n4.png);}
+.NavList .nLi-5 i{width: 104px;background-image: url(../images/n5.png);}
+.NavList .nLi-6 i{width: 54px;background-image: url(../images/n6.png);}
+.NavList .nLi-7 i{width: 134px;background-image: url(../images/n7.png);}
+
+.NavList .nLi-3.cur a i,.NavList .nLi-3 a:hover i{background-image: url(../images/n3-hover.png);}
+
+.bg{width: 100%;height: 740px;padding-top: 8px;background: #000 url(../images/bg.jpg) center bottom no-repeat;}
+
+.vs{border: 2px solid #1c1c20;padding: 34px 0 25px 12px;margin-bottom: 20px;background: url(../images/vsBg.jpg) center no-repeat;}
+.vsTitle{width: 428px;height: 47px;margin-bottom: 32px;background: url(../images/vsTitle.png) center no-repeat;}
+.vs .info{width: 500px;padding-top: 50px;float: right;}
+.vs .info p{font-size: 17px;line-height: 32px;margin-bottom: 36px;color: #fff;}
+.vs .info .more{width: 130px;height: 36px;background: #db2402;font-size: 14px;line-height: 36px;color: #fff;text-align: center;display: block;}
+
+.slider{position: relative;width: 565px;height: 318px;background: #000;overflow: hidden;float: left;}
+.slider .js-sDot{position: absolute;bottom: 14px;left: 50%;margin-left: -100px;width: 200px;text-align: center;}
+.slider .js-sDot li{width: 10px;height: 10px;margin: 0 4px;background: #fff;cursor: pointer;display: inline-block;border-radius: 50%;overflow: hidden;text-indent: -9999px;}
+.slider .js-sDot li.cur{background: #fff715;}
+
+.footer{padding: 20px;height: 130px;margin-top: 12px;background: #1b1b1b;}
+.footer .qq{width: 130px;height: 56px;padding-left: 80px;font-size: 18px;line-height: 56px;color: #fbf7c7;margin-bottom: 12px;text-align: center;background: url(../images/qq.png) center no-repeat;display: block;}
+.footer .kf{width: 210px;height: 60px;background: url(../images/kf.jpg) center no-repeat;display: block;}
+.footer .M{width: 200px;height: 104px;padding: 22px 12px 0 164px;margin-left: 15px;border: 1px solid #414141;background: url(../images/2018.png) 24px center no-repeat;float: left;}
+.footer .R{width: 440px;height: 128px;background: url(../images/tips.png) center no-repeat;float: right;}
+
+.bottom{width: 100%;padding: 34px 0;background: #0d0d0d;text-align: center;}
+.footerLink li{position: relative;width: 160px;display: inline-block;text-align: center;}
+.footerLink li:after{position: absolute;right: 0;top: 50%;margin-top: -7px;width: 1px;height: 14px;background: #262521;content: "";display: block;}
+.footerLink li:last-child:after{display: none;}
+.footerLink li a{color: #fffcd5;}
+
+.bankList li{position: relative;padding-left: 62px;margin-bottom: 18px;}
+.bankList li img{margin-left: -62px;float: left;}
+.bankList h3{font-size: 14px;line-height: 18px;color: #dedede;}
+.bankList p{font-size: 12px;color: #6d6d6d;}
