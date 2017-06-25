@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="UTF-8">
+	<title>保博集团</title>
+	<meta name="viewport" content="width=device-width,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+	<style type="text/css">
+		*{padding: 0;margin: 0;}
+		img{bottom: 0;outline: 0;vertical-align: top;}
+		ul,li{list-style: none;}
+		body{width: 100%;height: 984px;background: #000018 url(images/bg.jpg) center -42px no-repeat;}
+		a{color: #000;text-decoration: none;}
+		.tac{text-align: center;}
+		.popup{position: absolute;top: 42px;left: 50%;margin-left: -506px;width: 1012px;height: 854px;border-radius: 8px;overflow: hidden;}
+		.popup .logo{text-align: center;margin-bottom: 16px;}
+		.content{padding: 20px 40px;font: 20px/34px 'Microsoft YaHei';color: #343434;}
+		.content p{margin-bottom: 20px;}
+		.content .t-green{color: #0b7221;}
+		.content .t-zi{color: #870ff8;}
+		.content .t-red{color: #f41717;}
+		.content .t-red2{color: #d50f34;}
+		.content .t-blue{color: #184292;}
+		.tools{height: 42px;background: url(images/tips.png) 480px center no-repeat;margin-bottom: 42px;}
+		.tools .link{width: 340px;height: 42px;background: url(images/linkBg.png) center no-repeat;text-align: center;font: 27px/42px 'Microsoft YaHei';}
+		.content .btn{height: 56px;width: 210px;font-size: 20px;line-height: 56px;border-radius: 10px;text-align: center;display: inline-block;*display: inline;*zoom: 1;margin: 0 14px;}
+		.content .btn-red{background: #f84646;color: #fff;		}
+		.content .btn-yellow{background: #f3ca24;color: #073565;}
+		.content .btn:hover{opacity: .9;filter: alpha(opacity=90);}
+
+		.fixedBar{position: fixed;top: 42%;z-index: 100;background: #fff;width: 190px;}
+		.fixedBar img{vertical-align: middle;margin-right: 10px;}
+		.fixedBar .title{padding-top: 18px;height: 30px;padding-bottom: 10px;background: #003f82;line-height: 30px;font-size: 18px;}
+		.fixedBar .title a{display: block;color: #fff;padding-left: 32px;}
+		.fixedBar dd{height: 58px;font: 18px/58px 'Microsoft YaHei';color: #000;}
+		.fixedBar dd a{display: block;padding-left: 32px;}
+		.fixedBar dd:hover{background: #f5f5f5;}
+		.J_close{position: absolute;right: 8px;top: 26px;z-index: 2;width: 14px;height: 14px;background: url(images/close.png) center no-repeat;display: block;cursor: pointer;}
+	</style>
+</head>
+<body>
+	<div class="popup">
+		<div class="title"><img src="images/title.jpg" alt=""></div>
+		<div class="content">
+			<h1 class="logo"><a href=""><img src="images/logo.png" alt=""></a></h1>
+			<p style="text-indent: 2em;"><span class="t-red">保博集团--</span>全球首创担保返利集团。保博集团成立于2005年，是一家汇聚游戏资金担保与客户返利于一体的新型<span class="t-green">担保企业</span>。保博集团实力雄厚，<span class="t-zi">持有菲律宾、新加坡、澳门等多家官方认证牌照</span>，是享誉全球首家拥有<span class="t-blue">担保、返利、</span>管理经验的品牌信任集团。保博集团郑重承诺凡在集团旗下合作的网站平台进行游戏，均可享受千亿担保<span class="t-red2">资金保障，安全无忧并有四大返利优惠供您选择</span>。您的支持是我们前进的动力，让我们携手一起开启财富之旅。</p>
+			<p class="tac"><img src="images/four.gif" alt=""></p>			
+			<p>通过保博集团的平台链接，游戏玩家可以享有专属的游戏返利服务，与游戏网站优惠活动不冲突，让玩家真正在游戏的同时获得收益。</p>
+			<div class="tools">
+				<div class="link"><a href="http://www.bb099.com">点击进入保博担保集团</a></div>
+			</div>
+			<div class="tac">
+				<a class="btn btn-red" href="http://www.bb099.com">咨询在线客服</a><a class="btn btn-yellow" href="http://www.bb099.com">申请返利</a>
+			</div>
+		</div>
+	</div>
+
+	<dl class="fixedBar" style="left: 0">
+		<dt class="title"><a href="http://www.bb099.com"><img src="images/kf-hover.png" alt="">在线客服</a></dt>
+		<dd><a href="http://www.bb099.com"><img src="images/qq-hover.png" alt="">QQ客服</a></dd>
+		<dd><a href="http://www.bb099.com"><img src="images/wechat-hover.png" alt="">微信客服</a></dd>
+		<i class="J_close" title="关闭"></i>
+	</dl>
+
+	<dl class="fixedBar" style="right: 0">
+		<dt class="title"><a href="http://www.bb099.com"><img src="images/qq2-hover.png" alt="">官方QQ</a></dt>
+		<dd><a href="http://www.bb099.com"><img src="images/li-hover.png" alt="">申请返利</a></dd>
+		<dd><a href="http://www.bb099.com"><img src="images/zheng-hover.png" alt="">企业荣誉</a></dd>
+		<i class="J_close" title="关闭"></i>
+	</dl>
+	<script src="https://cdn.bootcss.com/jquery/1.11.2/jquery.js"></script>
+	<script>
+		$(function(){
+			$('.J_close').on('click',function(){
+				$(this).closest('.fixedBar').fadeOut()
+			})
+		})
+	</script>
+</body>
+</html>
