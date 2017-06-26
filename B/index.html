@@ -46,13 +46,13 @@
 				<div class="info">
 					<h2 class="vsTitle"></h2>
 					<p>空中城市独家与英雄联盟联手打造竞猜平台，官方直播赛事公平、公正、公开、玩法多样，你还在等什么感觉加入我们，一起为您的团队加油</p>
-					<a href="" class="more">查看详情</a>
+					<a href="http://www.loldj8.com" class="more">查看详情</a>
 				</div>
 			</div> <!-- vs end -->
 			<a href=""><img src="images/pic.jpg" alt=""></a>
 			<div class="footer">
 				<div class="fl">
-					<a href="" class="qq">97836688</a>
+					<span class="qq">97836688</span>
 					<a href="https://messenger.providesupport.net/messenger/007s51oyu36kn14ohjsbzmxlbi.html" class="kf"></a>
 				</div>
 				<div class="M">
@@ -90,6 +90,21 @@
 <script>
 	$(function(){
 		$('.slider').slide()
+		var fn = {
+			hover:function(obj){
+				obj.hover(function(){
+					$(this).siblings().addClass('default')
+				},function(){
+					$(this).siblings().removeClass('default')
+				})
+			}
+		}
+		$(function(){
+			fn.hover($('.nav li'));
+			fn.hover($('.NavList li'));
+			 
+		})
+
 	})
 </script>
 </body>

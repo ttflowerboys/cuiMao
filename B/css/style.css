@@ -33,6 +33,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
 .nav .icon-kf{background-position: -90px 0;}
 .nav li.cur a,.nav a:hover{color: #f6f90c;}
 .nav li.cur i,.nav a:hover i{background-position-y: -30px;}
+.nav li.default a{color: #fff;}
+.nav li.default i{background-position-y: 0;}
 
 .banner{width: 100%;height: 243px;padding-top: 357px;background: #000 url(../images/banner.jpg) center top no-repeat;overflow: hidden;}
 .banner .link{width: 464px;height: 38px;padding-bottom: 9px;padding-top: 10px;background: url(../images/bannerLink.png) center no-repeat;margin: 0 auto;display: block;}
@@ -54,7 +56,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
 
 .NavList .nLi-3.cur a i,.NavList .nLi-3 a:hover i{background-image: url(../images/n3-hover.png);}
 
-.bg{width: 100%;height: 740px;padding-top: 8px;background: #000 url(../images/bg.jpg) center bottom no-repeat;}
+.NavList li.default a{background: none;color: #fff;}
+
+
+.bg{width: 100%;height: 740px;padding-top: 8px;background: #000 url(../images/bg.jpg) center top no-repeat;}
 
 .vs{border: 2px solid #1c1c20;padding: 34px 0 25px 12px;margin-bottom: 20px;background: url(../images/vsBg.jpg) center no-repeat;}
 .vsTitle{width: 428px;height: 47px;margin-bottom: 32px;background: url(../images/vsTitle.png) center no-repeat;}
