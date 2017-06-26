@@ -41,11 +41,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
 .banner .link a{width: 330px;height: 32px;background: url(../images/link.png) center no-repeat;margin: 0 auto;display: block;}
 
 .Nav{height: 124px;background: #131313;}
-.NavList li{float: left;}
-.NavList li a{height: 104px;padding: 20px 26px 0;color: #fff;display: block;text-align: center;}
-.NavList li.cur a,.NavList li a:hover{color: #291f16;background: #ab915b url(../images/hover.jpg) center no-repeat;}
+.NavList{width: 1176px;height: 124px;overflow: hidden;margin: auto;}
+.NavList li{float: left;width: 168px;}
+.NavList li a{height: 104px;padding-top: 20px;color: #fff;display: block;text-align: center;}
+.NavList li.cur a,.NavList li a:hover{color: #291f16;background: #ab915b url(../images/hover.jpg) center no-repeat;transition : all 0.2s linear 0s}
 .NavList li span{font-size: 16px;padding-top: 12px;display: block;}
-.NavList i{height: 54px;background-repeat: no-repeat;background-position: center;display: block;}
+.NavList i{height: 54px;background-repeat: no-repeat;background-position: center;display: block;margin: 0 auto;}
 .NavList .nLi-1 i{width: 84px;background-image: url(../images/n1.png);}
 .NavList .nLi-2 i{width: 124px;background-image: url(../images/n2.png);}
 .NavList .nLi-3 i{width: 112px;background-image: url(../images/n3.png);}
@@ -56,7 +57,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
 
 .NavList .nLi-3.cur a i,.NavList .nLi-3 a:hover i{background-image: url(../images/n3-hover.png);}
 
-.NavList li.default a{background: none;color: #fff;}
+.NavList li.default a{background: none;color: #fff;transition : all 0.2s linear 0s}
 
 
 .bg{width: 100%;height: 740px;padding-top: 8px;background: #000 url(../images/bg.jpg) center top no-repeat;}
