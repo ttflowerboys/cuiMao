@@ -8,9 +8,12 @@ input, textarea, keygen, select, button {margin: 0em;font: -webkit-small-control
 input, textarea {outline: 0;}
 article, aside, footer, header, hgroup, main, nav, section {display: block;}
 body{height: auto;width: 750px;margin: 0 auto;}
+.t-red{color: #f31434;}.t-blue{color: #14c2f1;}.t-green{color: #47fb2f;}
 #wrap{position: relative;width: 100%;padding-bottom: 120px;font-size: 14px;background: #010915;}
 #wrap .A{width: 750px;height: 1150px;}
 #wrap .alink{position: absolute;top: 686px;left: 160px;width: 460px;height: 77px;display: block;}
+
+.aP{position: absolute;left: 0;top: 983px;font-size: 26px;line-height: 42px;color: #fff;padding: 0 24px;}
 
 .fixedLink{position: fixed;bottom: 0;left: 50%;margin-left: -375px;width: 750px;height: 120px;background: #000 url(../images/fixedBar.gif) center no-repeat;}
 .fixedLink li{width: 25%;height: 120px;float: left;}
