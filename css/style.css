@@ -534,13 +534,12 @@ body.overflow {
     touch-action: pan-x
 }
 
-.swiper-button-next,.swiper-button-prev,.page-nav-prev,.page-nav-next {
+.swiper-button-next,.swiper-button-prev {
     position: absolute;
     top: 50%;
-    margin-top: -22px;
     width: 27px;
     height: 44px;
-    display: none;
+    margin-top: -22px;
     z-index: 10;
     cursor: pointer;
     -moz-background-size: 27px 44px;
