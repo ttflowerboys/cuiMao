@@ -19,7 +19,7 @@ $(function() {
 		effect : 'fade',
 		simulateTouch : false,
 		loop : true,
-		pagination: '#appbanner .swiper-pagination',
+		/*pagination: '#appbanner .swiper-pagination',*/
 		nextButton: '#appbanner .swiper-button-next',
         prevButton: '#appbanner .swiper-button-prev',
 		fade: {
