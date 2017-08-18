@@ -50,6 +50,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
 .rollNews .roll{width: 837px;height: 22px;float: left;font-size: 12px;color: #fff;overflow: hidden;}
 
 .bg{padding: 34px 0;background: #2a1d06;}
+.bg2{padding: 68px 0;background: #120c01;}
 
 .cardList{margin-left: -14px;margin-bottom: 18px;overflow: hidden;}
 .cardList li{width: 196px;height: 224px;color: #fff;padding: 10px 16px 10px 306px;margin-left: 14px;float: left;border: 4px solid #372511;background: #372511;overflow: hidden;}
@@ -73,3 +74,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
 .footerLink li a{font-size: 14px;color: #bd770e;}
 
 .copyright{padding: 22px 0;line-height: 22px;font-size: 14px;color: #6e5604;text-align: center;}
+
+.playList{font-size: 0;text-align: center;}
+.playList li{position: relative;width: 324px;height: 426px;margin: 0 34px;background: #694d1e;border: 4px solid #120c01; transition : all 0.2s linear 0s;display: inline-block;overflow: hidden;}
+.playList .pic{width: 324px;height: 228px;overflow: hidden;}
+.playList .title{position: relative;font-size: 24px;height: 32px;line-height: 32px;margin: 20px auto 10px;color: #f1ea2a;text-align: center;}
+.playList .title:after{content: "";position: absolute;left: 50%;top: 50%;margin-top: -1px;margin-left: -116px;width: 232px;height: 2px;background: #f1ea2a;}
+.playList .title strong{position: relative;z-index: 2;display: inline-block;padding: 0 10px;background: #694d1e;}
+.playList p{padding: 0 18px;font-size: 14px;line-height: 26px;color: #fff;text-align: left;}
+
+.playList li:hover{border-color: #f1ea2a}
