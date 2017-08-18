@@ -47,7 +47,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
 .rollNews .inner{position: relative;width: 978px;height: 22px;margin: 0 auto;}
 .rollNews .title{width: 132px;font-size: 16px;color: #fcd57c;display: block;float: left;}
 .rollNews .title strong{font-weight: bold;}
-.rollNews .roll{width: 837px;height: 22px;float: left;font-size: 12px;color: #fff;overflow: hidden;}
+.rollNews .roll{position: relative;width: 837px;height: 22px;float: left;font-size: 12px;color: #fff;overflow: hidden;}
+.rollNews .roll p{position: absolute;top: 0;left: 0;}
 
 .bg{padding: 34px 0;background: #2a1d06;}
 .bg2{padding: 68px 0;background: #120c01;}
@@ -84,3 +85,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
 .playList p{padding: 0 18px;font-size: 14px;line-height: 26px;color: #fff;text-align: left;}
 
 .playList li:hover{border-color: #f1ea2a}
+
+.pageBanner{position: relative;width: 100%;height: 227px;}
+.pageBanner .inner{position: absolute;width: 1920px;left: 50%;top: 0;margin-left: -960px;text-align: center;}
+.pageBanner .inner img{height: 227px;}
