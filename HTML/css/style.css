@@ -89,3 +89,30 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
 .pageBanner{position: relative;width: 100%;height: 227px;}
 .pageBanner .inner{position: absolute;width: 1920px;left: 50%;top: 0;margin-left: -960px;text-align: center;}
 .pageBanner .inner img{height: 227px;}
+
+.fixLeft,.fixRight{
+	position: fixed;
+	top: 20%;
+	width: 165px;
+	height: 319px;
+	z-index: 10;
+}
+.fixLeft{	
+	left: 0;	
+	background: url(../images/fixLeft.png) center top no-repeat;
+}
+.fixRight{
+	right: 0;
+	background: url(../images/fixRight.png) center top no-repeat;
+}
+.fixRight .kf{
+	position: absolute;
+	top: 85px;
+	left: 50%;
+	margin-left: -73px;
+	width: 146px;
+	height: 51px;
+}
+.close{position: absolute;bottom: 7px;left: 50%;margin-left: -24px;width: 54px;height: 18px;display: block;}
+.qr{position: absolute;top: 188px;left: 50%;margin-left: -43px;width: 80px;height: 80px;padding: 6px;background: #fff;overflow: hidden;}
+.qr img{width: 80px;height: 80px;}

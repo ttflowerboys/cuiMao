@@ -4,3 +4,10 @@ $(function(){
   var timer = setInterval(goLeft, 20);
   $(".roll p").hover(function() {clearInterval(timer); },function() {timer = setInterval(goLeft, 20);})
 })
+
+    function close(){
+      $('.J_close').parent().hide()
+    }
+    function close2(){
+      $('.J_close2').parent().hide()
+    }
